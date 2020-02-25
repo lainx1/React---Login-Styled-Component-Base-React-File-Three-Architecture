@@ -7,7 +7,7 @@ const StyledCard = styled.div`
     background: white;
     border-radius: 0.5rem;
     padding: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
     flex-basis: calc(100% / 2 - 2rem);
 `
 export default StyledCard
