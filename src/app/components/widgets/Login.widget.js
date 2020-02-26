@@ -12,14 +12,14 @@ const Login = (props)=>{
                     id={"email"}
                     name={"email"}
                     placeholder={"Email"}
-                    type={"text"}
+                    type={"email"}
                     label={"Ingresa tu email"}
                 />
                 <InputWidget
                     id={"password"}
                     name={"password"}
                     placeholder={"Contraseña"}
-                    type={"text"}
+                    type={"password"}
                     label={"Ahora la contraseña"}
                 />                
                 <Button>Login</Button>
