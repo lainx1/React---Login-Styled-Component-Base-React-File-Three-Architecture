@@ -22,7 +22,7 @@ const Login = (props)=>{
                     type={"password"}
                     label={"Ahora la contraseña"}
                 />                
-                <Button>Login</Button>
+                <Button type={"submit"}>Login</Button>
             </Card>
         </Root>
     )

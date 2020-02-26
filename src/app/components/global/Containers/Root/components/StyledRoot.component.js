@@ -5,6 +5,7 @@ const StyledRoot = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
     width: 100vw;
     height: 100vh;
     background: -webkit-linear-gradient(top,  #4c4c4c 0%, #292929 40%, #1c1c1c 60%, #000000 100%);
