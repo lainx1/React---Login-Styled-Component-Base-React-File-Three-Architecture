@@ -7,7 +7,7 @@ const InputWidget = (props)=>{
     return (
         <InputContainer>
             {
-                props.label ? <Label for={props.id}>{props.label}</Label> : ''
+                props.label ? <Label htmlFor={props.id}>{props.label}</Label> : ''
             }
             <Input id={props.id} name={props.name} type={props.type} placeholder={props.placeholder}/>
         </InputContainer>
